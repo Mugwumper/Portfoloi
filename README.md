@@ -1,2 +1,2 @@
-# Portfoloi
+# Portfolio
 Portfolio for Thomas Lewis
