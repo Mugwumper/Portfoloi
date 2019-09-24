@@ -1,0 +1,18 @@
+
+body {
+  background: rgb(19, 0, 38) 100%;
+  color: white;
+}
+
+header {
+  background: linear-gradient(to bottom, rgb(33, 11, 105) 0%, rgb(19, 0, 38) 100%);
+}
+
+.container {
+  /* padding: 30px; */
+}
+
+.app {
+  /* padding: 30px; */
+  /* height: 100vh; */
+}
