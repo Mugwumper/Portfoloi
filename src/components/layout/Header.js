@@ -5,8 +5,8 @@ import Navbar from "./Navbar";
 class Header extends Component {
   render() {
     return (
-      <header style={getStyle_Header}>
-          <h1>Thomas Lewis</h1>
+      <header>
+          <h1  style={getStyle_Header}>Thomas Lewis</h1>
           <Navbar />
 
       </header>
