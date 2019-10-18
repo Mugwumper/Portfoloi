@@ -33,14 +33,14 @@ function Jumbotron() {
       <RBCarousel
         animation={true}
         autoplay={autoplay}
-        slideshowSpeed={2000}
+        slideshowSpeed={20000}
         defaultActiveIndex={0}
         leftIcon={icon.leftIcon}
         rightIcon={icon.rightIcon}
         onSelect={_onSelect}
         ref={slider_ref}
       >
-      <div  className="JItem_Dream" 
+      <div  className="Item_Dream" 
             style={{ height: 400 }}
             //onClick={() => stopAndShow("DreamJournal", RBCarousel.autoplay)}>>
             onClick={_autoplay}>
