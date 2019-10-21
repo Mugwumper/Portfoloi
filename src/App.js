@@ -11,10 +11,15 @@ import About from './components/pages/About';
 import Contact from './components/pages/Contact';
 import "./App.css";
 
+export const rContext_ShowMore = React.createContext(null);
 
 function App() {
+  const [doShowMore, setShowMoreX] = React.useState(false);
+  React.useEffect(() => {
 
+  }, []);
   return (
+    <rContext_ShowMore.Provider value={{ doShowMore, setShowMoreX }}>
       <Router>
         <div className="App">
           <div className="container">
@@ -28,9 +33,8 @@ function App() {
           </div>
         </div>
       </Router>      
+    </rContext_ShowMore.Provider>
   )
-
-
 }
 
 export default App;

@@ -6,7 +6,7 @@ function Project_Dream_Journal () {
             <h1>Dream Journal</h1>
             <p>
             <a href="https://docs.google.com/presentation/d/1qek1ZaqA3FkIX5uWMjSNhRFgdTe6Nj0te69TZ7C8hEQ/edit#slide=id.p"
-               target="_blank">Presentation Slide Deck</a>                
+               target="_blank" rel="noopener noreferrer">Presentation Slide Deck</a>                
             </p>
 
             <p>
