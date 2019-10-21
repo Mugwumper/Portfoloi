@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg">
       <Link className="navbar-brand" to="/">
-        TPLewis
+      <img src={process.env.PUBLIC_URL + "/favicon.ico"} width="30" height="30" class="d-inline-block align-top" alt=""></img>
       </Link>
       <button
         className="navbar-toggler"

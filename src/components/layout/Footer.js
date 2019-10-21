@@ -13,7 +13,8 @@ const getStyle_Footer = {
   bottom: "0",
   width: "80%",
   minHeight: "100px",
-  //background: "rgb(19, 0, 38) 100%s",
+  filter: "brightness(10%)",
+    //background: "rgb(19, 0, 38) 100%s",
   position: "absolute",
   textAlign: "center"
 }
@@ -24,7 +25,8 @@ const getStyle_FooterSpan = {
   left: "0",
   right: "0",
   padding: "3px",
-  //background: "#030229"
+  //filter: "brightness(10%)",
+  background: "#030229"
 }
 
 

@@ -14,7 +14,7 @@ import "./App.css";
 export const rContext_ShowMore = React.createContext(null);
 
 function App() {
-  const [doShowMore, setShowMoreX] = React.useState(false);
+  const [doShowMore, setShowMoreX] = React.useState({});
   React.useEffect(() => {
 
   }, []);
@@ -29,7 +29,7 @@ function App() {
             <Route path="/resume" component={Resume} />
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
-            <Footer/>
+            {/* <Footer/> */}
           </div>
         </div>
       </Router>      
