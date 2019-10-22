@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\components",
+    "\\src\\components\\layout",
+    "\\src\\components\\pages"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\components\\layout\\Jumbotron.js",
   "PreviewInSolutionExplorer": false
 }

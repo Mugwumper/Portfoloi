@@ -17,7 +17,7 @@ function App() {
   const [doShowMore, setShowMoreX] = React.useState({});
   React.useEffect(() => {
 
-  }, []);
+  }, [doShowMore]);
   return (
     <rContext_ShowMore.Provider value={{ doShowMore, setShowMoreX }}>
       <Router>
