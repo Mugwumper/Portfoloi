@@ -16,6 +16,7 @@ class Resume extends Component {
       const { pageNumber, numPages } = this.state;   
       return (
         <div>
+          <center>
           <Document
             file={process.env.PUBLIC_URL + "/Thomas Lewis Resume.pdf"}
             onLoadSuccess={this.onDocumentLoadSuccess}
@@ -32,6 +33,7 @@ class Resume extends Component {
             <Page pageNumber={2} />
           </Document>
           <p>Page 2 of {numPages}</p>
+          </center>
         </div>
       );
     }
