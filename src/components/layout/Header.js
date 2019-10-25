@@ -15,7 +15,9 @@ class Header extends Component {
 }
 
 const getStyle_Header = {
-  fontFamily: "Palatino Linotype",
+  // fontFamily: "Palatino Linotype",
+  fontFamily: "Iceland",
+  
   textShadow: "2px 2px 2px #372AE8",
   color: "#fff",
   textAlign: "center",

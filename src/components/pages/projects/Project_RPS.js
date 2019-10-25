@@ -8,11 +8,11 @@ function Project_RPS () {
             <h2>Description</h2>
             <p>This game can be used by two people (or two instances on one machine). It uses Firebase to track each player’s selection. It will keep a running score as well.</p>
             <p>Beyond the assignment’s requirements I’ve added a few things.</p>
-            <h3>1 - Player’s Name</h3>
+            <h5>1 - Player’s Name</h5>
             <p>The ability to give each player a name. This appears on both screens and makes it clear who you are playing against.</p>
-            <h3>2 - Status</h3>
+            <h5>2 - Status</h5>
             <p>As each player is making a selection the status is relayed to the other player. In other words you will know if your opponent is waiting on you or if you are waiting on them.</p>
-            <h3>3 - Control Panel</h3>
+            <h5>3 - Control Panel</h5>
             <p>Admittedly this is used more for my own debugging but it does offer a place where user name can be entered. Control panel is accessable by clicking on the gear icon in the upper left.</p>
             <h4>Bugs:</h4>
             <p>There is an issue where at times the both instances appear as ‘Player 2’. To work around this I’ve added the ability to ‘Force this to be Player 1’ in the control panel.</p>

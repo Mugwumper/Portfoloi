@@ -37,6 +37,7 @@ function Portfolio () {
     //let setShowMoreX = React.useContext(rContext_ShowMore).setShowMore;
       return (
         <div>
+            {/* <h1>Portolio Projects</h1> */}
             <Jumbotron />
             {show_dj ?             
                 Project_Dream_Journal()   

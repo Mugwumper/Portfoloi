@@ -189,7 +189,7 @@ function Jumbotron() {
            onClick={_autoplay}>
           <img
             style={{ width: "100%", height: "100%", filter: "brightness(50%)" }}
-            src={process.env.PUBLIC_URL + "/images/Jumbotron_ClG.png"}
+            src={process.env.PUBLIC_URL + "/images/Jumbotron_CyG.png"}
             alt="Clicky Game"
           />
           <div onClick={() => clickToLearnMore(12)} className="carousel-caption">Click to learn more</div>

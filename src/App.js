@@ -1,9 +1,8 @@
-//import React, { useState } from 'react';
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/layout/Header';
 
-import Footer from './components/layout/Footer';
+//import Footer from './components/layout/Footer';
 import Main from './components/pages/Main';
 import Portfolio from './components/pages/Portfolio';
 import Resume from './components/pages/Resume';

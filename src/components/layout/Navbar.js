@@ -1,13 +1,14 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
-// Depending on the current path, this component sets the "active" className on the appropriate navigation link item
+// Depending on the current path, this component sets the "active" className  
+// on the appropriate navigation link item
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg">
-      <Link className="navbar-brand" to="/">
-      <img src={process.env.PUBLIC_URL + "/favicon.ico"} width="30" height="30" class="d-inline-block align-top" alt=""></img>
-      </Link>
+    <nav className="navbar navbar-expand-lg navbar-dark navbar-toggleable-sm">
+      <NavLink className="normal navbar-brand" to="/">
+      <img src={process.env.PUBLIC_URL + "/favicon.ico"} width="30" height="30" className="d-inline-block align-top" alt=""></img>
+      </NavLink>
       <button
         className="navbar-toggler"
         type="button"
@@ -25,6 +26,7 @@ function Navbar() {
           {/* <li className="nav-item">
             <Link
               to="/contact"
+              style={getStyle_navLink}
               className={
                 window.location.pathname === "/contact"
                   ? "nav-link active"
@@ -35,32 +37,38 @@ function Navbar() {
             </Link>
           </li> */}
           <li className="nav-item">
-            <Link
+            <NavLink
               to="/resume"
-              className={
-                window.location.pathname === "/resume"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
+              style={getStyle_navLink}
+              // className={
+              //   window.location.pathname === "/resume"
+              //     ? "nav-link active"
+              //     : "nav-link"
+              // }
+              className="normal" activeClassName="activeItem" 
+
             >
               Resume
-            </Link>
+            </NavLink>
           </li>
           <li className="nav-item">
-            <Link
+            <NavLink
               to="/portfolio"
-              className={
-                window.location.pathname === "/portfolio"
-                  ? "nav-link active"
-                  : "nav-link"
-              }
+              style={getStyle_navLink}
+              // className={
+              //   window.location.pathname === "/portfolio"
+              //     ? "nav-link active"
+              //     : "nav-link"
+              // }
+              className="normal" activeClassName="activeItem" 
             >
               Portfolio
-            </Link>
+            </NavLink>
           </li>
           {/* <li className="nav-item">
             <Link
               to="/about"
+              style={getStyle_navLink}
               className={
                 window.location.pathname === "/about"
                   ? "nav-link active"
@@ -76,8 +84,9 @@ function Navbar() {
   );
 }
 
-// const getStyle_NavBar = {
-//   //marginBottom: "0"
-// };
+const getStyle_navLink = {
+  textDecoration: "none",
+  margin: "15px",
+};
 
 export default Navbar;

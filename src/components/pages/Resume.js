@@ -40,17 +40,4 @@ class Resume extends Component {
   }
 
 
-// function Resume () {
-//     return (
-//         <div>
-//             <h1>Thomas Lewis Resume</h1>
-//             <h2>{"'" + process.env.PUBLIC_URL + "/Resume.pdf'"}</h2>
-//             <Document 
-//                 file={process.env.PUBLIC_URL + "/Resume.pdf"} 
-//                 onLoadError={console.error} 
-//             />
-//         </div>
-//     )
-// }
-
  export default Resume;
